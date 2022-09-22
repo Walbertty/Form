@@ -1,6 +1,6 @@
 # Form
 
-![preview](/image/Form project.png)
+![preview](/image/project.png)
 
 Project built by me to test some knowledge
 
