@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crie seu evento</title>
+  <title>Create your event</title>
 
   <link rel="stylesheet" href="style.css">
 
@@ -15,18 +15,18 @@
 <body>
   <div class="page">
     <header>
-      <h1>Crie e compartilhe seu evento.</h1>
-      <p>O primeiro passo, é preencher esse
-        formulário de inscrição.</p>
+      <h1>Create and share your event.</h1>
+      <p>The first step is to fill this
+        application form.</p>
     </header>
     <form id="my-form">
 
       <fieldset>
         <div class="fieldset-wrapper">
-          <legend>Informações do Evento</legend>
+          <legend>Event Information</legend>
 
           <div class="input-wrapper">
-            <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
+            <label for="event-title">Event title <span>(minimum 8 characters)</span></label>
             <input 
               type="text" 
               id="event-title"
@@ -35,26 +35,26 @@
           </div>
   
           <div class="input-wrapper">
-            <label for="event-link">Link do evento <span>(comece com https://)</span></label>
+            <label for="event-link">Event link <span>(start with https://)</span></label>
             <input type="url" id="event-link" />
           </div>
 
           <div class="input-wrapper">
-            <label for="event-whatsapp">Whatsapp para contato <span>(somente números)</span></label>
+            <label for="event-whatsapp">Whatsapp contat <span>(numbers only)</span></label>
             <input type="number" id="event-whatsapp" />
           </div>
 
           <div class="input-wrapper">
-            <label for="event-info">Informações extras</label>
+            <label for="event-info">Extra information</label>
             <textarea id="event-info"></textarea>
           </div>
 
           <div class="input-wrapper">
-            <label for="event-category">Categoria</label>
+            <label for="event-category">Category</label>
             <select id="event-category">
-              <option value="live">Ao vivo</option>
+              <option value="live">Live</option>
               <option value="podcast">Podcast</option>
-              <option value="mentorship">Mentoria</option>
+              <option value="mentorship">Mentory</option>
             </select>
           </div>
         </div>
@@ -63,15 +63,15 @@
 
       <fieldset>
         <div class="fieldset-wrapper">
-          <legend>Privacidade</legend>
+          <legend>Privacity</legend>
 
           <div class="input-wrapper">
-            <label for="event-email">E-mail do administrador <span>(digite um email válido)</span></label>
+            <label for="event-email">Admin email <span>(type an email válido)</span></label>
             <input type="email" id="event-email" />
           </div>
 
           <div class="input-wrapper">
-            <label for="event-password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
+            <label for="event-password">Access password for participants <span>(minimum 8 characters)</span></label>
             <input 
               type="password" 
               id="event-password"
@@ -80,7 +80,7 @@
 
           <div class="checkbox-wrapper">
             <input type="checkbox" id="event-private" />
-            <label for="event-private">Evento privado</label>
+            <label for="event-private">Private event</label>
           </div>
 
         </div>
@@ -89,21 +89,21 @@
 
       <fieldset>
         <div class="fieldset-wrapper">
-          <legend>Dia e hora</legend>
+          <legend>Day and time</legend>
 
           <div class="col-3">
             <div class="input-wrapper">
-              <label for="event-date">Data</label>
+              <label for="event-date">Date</label>
               <input type="date" id="event-date" />
             </div>
   
             <div class="input-wrapper">
-              <label for="event-begin">Das</label>
+              <label for="event-begin">Begin</label>
               <input type="time" id="event-begin" />
             </div>
 
             <div class="input-wrapper">
-              <label for="event-end">Até</label>
+              <label for="event-end">End</label>
               <input type="time" id="event-end" />
             </div>
           </div>
@@ -119,7 +119,7 @@
       <button 
         class="button" 
         form="my-form">
-        Salvar evento
+        Save event
       </button>
     </footer>
   </div>
